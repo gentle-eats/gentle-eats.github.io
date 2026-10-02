@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gentle Eats — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; --ink:#1a1a1a; --soft:#5c5c5c; --bg:#faf9f6; --card:#fff; --line:#e6e3dc; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#f2f0ec; --soft:#a8a39a; --bg:#151513; --card:#1f1f1c; --line:#33322e; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  .wrap { max-width:46rem; margin:0 auto; padding:2.5rem 1.25rem 4rem; }
+  h1 { font-size:2rem; letter-spacing:-.02em; margin:0 0 .25rem; }
+  .sub { color:var(--soft); font-size:.9rem; margin:0 0 2rem; }
+  h2 { font-size:1.1rem; margin:2.25rem 0 .5rem; }
+  p, li { color:var(--ink); }
+  .soft { color:var(--soft); }
+  table { border-collapse:collapse; width:100%; margin:1rem 0; font-size:.93rem; display:block; overflow-x:auto; }
+  th, td { text-align:left; padding:.6rem .7rem; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-weight:600; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:1rem 1.15rem; margin:1.25rem 0; }
+  code { font-family:ui-monospace, SFMono-Regular, Menlo, monospace; font-size:.9em; }
+  a { color:inherit; }
+  footer { margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--line); color:var(--soft); font-size:.88rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Privacy Policy</h1>
+<p class="sub">Gentle Eats · last updated 29 September 2026</p>
+
+<p>Gentle Eats is a food and nutrition tracker for iPhone. This policy describes
+exactly what the app collects, where it goes, and what it never does. It is
+written to match what the app actually does, not what would be convenient to
+claim.</p>
+
+<div class="card">
+<strong>The short version.</strong> Your meals and profile live on your device and
+in <em>your own</em> iCloud. We run no database of your food. When you log by
+voice, photo or text, that one recording, image or sentence is sent to our server
+and on to OpenAI to work out what the food was — and is not kept afterwards. We
+sell nothing, show no ads, and do not track you across other apps.
+</div>
+
+<h2>What is stored, and where</h2>
+
+<table>
+<tr><th>Data</th><th>Where it lives</th><th>Why</th></tr>
+<tr>
+  <td>Your profile — name, height, weight history, goal, dietary preferences</td>
+  <td>On your iPhone, and synced to your own private iCloud database if iCloud is enabled</td>
+  <td>To calculate and adjust your daily targets</td>
+</tr>
+<tr>
+  <td>Your logged meals and saved products</td>
+  <td>Same — your device and your iCloud. <strong>We keep no copy.</strong></td>
+  <td>Your diary and its trends</td>
+</tr>
+<tr>
+  <td>A sign-in identifier from Apple or Google</td>
+  <td>Our server, inside a session token</td>
+  <td>To recognise your account and apply fair-use limits</td>
+</tr>
+<tr>
+  <td>Calories burned, read from Apple Health</td>
+  <td>Your device only — it is never sent anywhere</td>
+  <td>To keep your calorie target accurate</td>
+</tr>
+</table>
+
+<p>Your iCloud data is in your own Apple account. We cannot read it, and deleting
+your account removes it.</p>
+
+<h2>Voice, photos and typed meals</h2>
+
+<p>When you log a meal by voice, by photographing food or a nutrition label, or by
+typing it, that content is sent over an encrypted connection to our server and
+passed to <strong>OpenAI</strong> to identify the food and estimate its nutrition.
+We do not store the audio or the image after the result comes back, and OpenAI
+does not use API content to train its models. The resulting food entry is saved
+only where your other meals are: your device and your iCloud.</p>
+
+<h2>Barcodes</h2>
+
+<p>Scanning a barcode sends the barcode digits — nothing else, and nothing that
+identifies you — to <a href="https://world.openfoodfacts.org/">Open Food Facts</a>,
+an open food database. If a product isn't found, the app offers to read the pack's
+own nutrition label from a photo you take; that photo is handled exactly as
+described above, and the result is cached on your device against that barcode so
+the next scan is instant and works offline.</p>
+
+<h2>Sign-in</h2>
+
+<p>Signing in with Apple or Google gives us a stable identifier for your account
+and nothing more. The app requests only your name, and does not ask for your
+email address. Our server exchanges that identifier for its own session token,
+which is what fair-use limits are counted against.</p>
+
+<h2>Apple Health</h2>
+
+<p>If you connect Apple Health, the app reads your active energy (calories burned)
+so your daily target reflects what you actually did. It requests read access only,
+never write access, and that figure stays on your device — it is not transmitted
+to us or to anyone else.</p>
+
+<h2>Deleting your account</h2>
+
+<p>Open <strong>Profile → Delete Account</strong>. This permanently removes your
+profile, every logged meal, your weight history and your saved products from the
+device and from your iCloud, clears your stored credentials, and revokes the app's
+Sign in with Apple access. It cannot be undone, and it does not require emailing
+anyone.</p>
+
+<h2>What we don't do</h2>
+
+<ul>
+  <li>We do not sell or rent your data.</li>
+  <li>We show no advertising and use no advertising networks.</li>
+  <li>We do not track you across other apps or websites.</li>
+  <li>We use no third-party analytics or crash-reporting services.</li>
+</ul>
+
+<h2>Children</h2>
+
+<p>Gentle Eats is not intended for children under 13, and setup will not accept a
+date of birth under that age.</p>
+
+<h2>Not medical advice</h2>
+
+<p>Gentle Eats provides estimates for general wellness. It is not medical advice,
+and it is not a substitute for a doctor or dietitian. Nutrition figures are
+estimates — from public food databases, from a photographed label, or from an AI
+model — and can be wrong.</p>
+
+<h2>Changes</h2>
+
+<p>If this policy changes materially, the updated date above will change and the
+new version will be published here and in the app.</p>
+
+<h2>Contact</h2>
+
+<p>Questions, or a request about your data: <a href="mailto:nnkrmlv@gmail.com">nnkrmlv@gmail.com</a>.</p>
+
+<footer>
+Gentle Eats · <a href="support.html">Support</a>
+</footer>
+
+</div>
+</body>
+</html>
